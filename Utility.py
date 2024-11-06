@@ -1,20 +1,19 @@
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from groq import Groq
 import requests
 
-load_dotenv()
+# load_dotenv()
 
 class Utility:
     def __init__(self):
-        self.api_url = f"{os.getenv('HF_API_ROUTE')}/{os.getenv('HF_EMBEDDINGS_MODEL')}"
-        self.headers = {"Authorization": f"Bearer {os.getenv('HF_TOKEN')}"}
+        pass
 
 class LLMService(Utility):
     def __init__(self):
         super().__init__()
         self.client = Groq(
-            api_key=os.getenv("GROQ_API_KEY"),
+            api_key=os.environ.get("GROQ_API_KEY"),
         )
 
     def send_query(self, query, contexts=None):
@@ -46,6 +45,8 @@ class LLMService(Utility):
 class EmbeddingService(Utility):
     def __init__(self):
         super().__init__()
+        self.api_url = f"{os.environ.get('HF_API_ROUTE')}/{os.environ.get('HF_EMBEDDINGS_MODEL')}"
+        self.headers = {"Authorization": f"Bearer {os.environ.get('HF_TOKEN')}"}
 
     def get_embedding(self, texts):
         response = requests.post(self.api_url, headers=self.headers, json={"inputs": texts, "options": {"wait_for_model": True}})
@@ -55,7 +56,7 @@ class WhisperService(Utility):
     def __init__(self):
         super().__init__()
         self.client = Groq(
-            api_key=os.getenv("GROQ_API_KEY"),
+            api_key=os.environ.get("GROQ_API_KEY"),
         )
 
     def transcribe_audio(self, audio_stream):

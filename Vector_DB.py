@@ -23,7 +23,7 @@ class VectorDB:
 
         api_service = APIService()
         embeddings = api_service.get_embedding(chunks)
-        # print(embeddings)
+        print(embeddings)
 
         embeddings_np = np.array(embeddings).astype('float32')
         dimension = embeddings_np.shape[1]
