@@ -1,10 +1,7 @@
 from pytubefix import YouTube
-from dotenv import load_dotenv
-from groq import Groq
 from apiService import APIService
 from io import BytesIO
 
-load_dotenv()
 
 class VideoToText:
     def __init__(self):
