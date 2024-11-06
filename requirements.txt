@@ -7,4 +7,5 @@ langchain
 langchain-community
 pytubefix
 streamlit
+streamlit-chat
 faiss-cpu
