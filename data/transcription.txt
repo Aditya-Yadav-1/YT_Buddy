@@ -1,20 +1,12 @@
- Hey all, Jeff from Prefect here. Whether you're new to Prefect or a long-time user, the new serve method is a simplified way to create a Prefect deployment and get your workflow into production. So I've got a script here that's going to fetch some weather data. And I import a flow from Prefect and add my flow decorator to my function. Now, at the bottom here, I've got a new.serve method that I'm using and I am giving the name of the deployment and I am passing in a schedule so I can run this flow automatically every day. So when I run this script and then head over to the UI, our deployment has been created and I have all these flows scheduled to run each day. Getting your workflows deployed has never been easier. Head over to the docs.prefect.io or check out the code below.
+ The The The The The The The The The The The The The The The traveling forwards through time the other one's going backwards can you tell which is which how about now why does it feel so strange you're not shooting the bullet you're catching it whoa i didn't went back in myself felt like hell got wristed patient self I know you're living, know you're thrilling, office in it How I got my choice, independence, back and out in the street One is wild, let it be, rages out, gotta eat Not a vibe, but a way, with the sound, by the way Count it down by the days Who's the American? He seems nice, I invited him to the dinner. It's good with fists for a diplomat. There are people in the future who need us You got something Not gonna like it Time isn the problem getting out alive is the problem close the opera hit a red and blue outside i think our options are i'll be swearing I'm no idea what you're getting yourself into if you go through that door Well I'm going so any tips will be welcome What do you think we're seeing? The detritus of a coming war. You want to crash a plane. well how big a plane that part is a little dramatic last time there was no tennis we did pg-13
 
-Getting your Python code scheduled and into production should be easy, not complex.
+John David Washington is the new Protagonist in Christopher Nolan’s original sci-fi action spectacle “Tenet.”
+Armed with only one word—Tenet—and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time. 
+Not time travel.  Inversion. 
 
-Follow along with Jeff Hale as he puts he schedules his weather reporting code with the .serve() method including in Prefect. You can find the sample code here: https://gist.github.com/discdiver/93999e38db5249d7dc718e90134b18ab
-
-With Prefect, your can turn your fragile scheduled scripts into resilient, repeatable workflows with just a few lines of code. To get started with Prefect Cloud, get your free account at https://app.prefect.cloud.
-
-Connect with Us
------------------------
-  
-Website: https://www.prefect.io/
-Read the docs: https://docs.prefect.io/latest/
-GitHub: https://github.com/PrefectHQ/prefect
-Join Slack: https://www.prefect.io/slack
-
-Connect with us on LinkedIn: https://www.linkedin.com/company/prefect
-And Twitter: https://twitter.com/PrefectIO
-
-Subscribe: https://www.youtube.com/@PrefectIO
+The international cast of “Tenet” also includes Robert Pattinson, Elizabeth Debicki, Dimple Kapadia, Martin Donovan, Fiona Dourif, Yuri Kolokolnikov, Himesh Patel, Clémence Poésy, Aaron Taylor-Johnson, with Michael Caine and Kenneth Branagh. 
+Nolan wrote and directed the film, utilizing a mixture of IMAX® and 70mm film to bring the story to the screen.  “Tenet” is produced by Emma Thomas and Nolan.  Thomas Hayslip served as executive producer. 
+Nolan’s behind-the-scenes creative team included director of photography Hoyte van Hoytema, production designer Nathan Crowley, editor Jennifer Lame, costume designer Jeffrey Kurland, visual effects supervisor Andrew Jackson, and special effects supervisor Scott Fisher.  The score is composed by Ludwig Göransson. 
+“Tenet” was filmed on location across seven countries. 
+Warner Bros. Pictures presents a Syncopy Production, a Film by Christopher Nolan, “Tenet.”  Warner Bros. Pictures is distributing “Tenet” in theaters and IMAX worldwide. 
+www.Tenetfilm.net

@@ -7,14 +7,14 @@ load_dotenv()
 
 class Utility:
     def __init__(self):
-        self.client = Groq(
-            api_key=os.getenv("GROQ_API_KEY"),
-        )
         self.api_url = f"{os.getenv('HF_API_ROUTE')}/{os.getenv('HF_EMBEDDINGS_MODEL')}"
         self.headers = {"Authorization": f"Bearer {os.getenv('HF_TOKEN')}"}
 
 class LLMService(Utility):
     def send_query(self, query, contexts=None):
+        self.client = Groq(
+            api_key=os.getenv("GROQ_API_KEY"),
+        )
         chat_completion = self.client.chat.completions.create(
             messages = [
                 {
@@ -47,6 +47,9 @@ class EmbeddingService(Utility):
     
 class WhisperService(Utility):
     def transcribe_audio(self, audio_stream):
+        self.client = Groq(
+            api_key=os.getenv("GROQ_API_KEY"),
+        )
         transcription = self.client.audio.transcriptions.create(
             file=("audio.m4a", audio_stream),
             model="whisper-large-v3",
