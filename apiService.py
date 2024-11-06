@@ -5,13 +5,13 @@ class APIService:
         pass
 
     def get_llm_response(self, query, contexts=None):
-        self.llm_service = LLMService()
-        return self.llm_service.send_query(query, contexts)
+        llm_service = LLMService()
+        return llm_service.send_query(query, contexts)
 
     def get_embedding(self, texts):
-        self.embedding_service = EmbeddingService()
-        return self.embedding_service.get_embedding(texts)
+        embedding_service = EmbeddingService()
+        return embedding_service.get_embedding(texts)
 
     def transcribe_audio(self, audio_stream):
-        self.whisper_service = WhisperService()
-        return self.whisper_service.transcribe_audio(audio_stream)
+        whisper_service = WhisperService()
+        return whisper_service.transcribe_audio(audio_stream)

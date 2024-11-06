@@ -11,10 +11,13 @@ class Utility:
         self.headers = {"Authorization": f"Bearer {os.getenv('HF_TOKEN')}"}
 
 class LLMService(Utility):
-    def send_query(self, query, contexts=None):
+    def __init__(self):
+        super().__init__()
         self.client = Groq(
             api_key=os.getenv("GROQ_API_KEY"),
         )
+
+    def send_query(self, query, contexts=None):
         chat_completion = self.client.chat.completions.create(
             messages = [
                 {
@@ -41,15 +44,21 @@ class LLMService(Utility):
         return chat_completion.choices[0].message.content
     
 class EmbeddingService(Utility):
+    def __init__(self):
+        super().__init__()
+
     def get_embedding(self, texts):
         response = requests.post(self.api_url, headers=self.headers, json={"inputs": texts, "options": {"wait_for_model": True}})
         return response.json()
     
 class WhisperService(Utility):
-    def transcribe_audio(self, audio_stream):
+    def __init__(self):
+        super().__init__()
         self.client = Groq(
             api_key=os.getenv("GROQ_API_KEY"),
         )
+
+    def transcribe_audio(self, audio_stream):
         transcription = self.client.audio.transcriptions.create(
             file=("audio.m4a", audio_stream),
             model="whisper-large-v3",
