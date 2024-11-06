@@ -1,0 +1,9 @@
+dotenv-python
+groq
+numpy
+pandas
+openai
+langchain
+langchain-community
+pytubefix
+streamlit
