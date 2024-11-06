@@ -1,31 +1,20 @@
- Stark Thanos Tell me something Do you have an infinity gauntlet now? Back in my world Heroes were the cause of our end So I made a promise that no other reality would have to suffer the fate of mine. He's broken every rule imaginable in the multiverse. If we don't stop him, there won't be a reality left to save. This world has forgotten what true power is. The Tony I knew has to be in there somewhere. We've got one shot. So let's make it count. Submit and perhaps I'll leave a remnant of you to remember
+ Hey all, Jeff from Prefect here. Whether you're new to Prefect or a long-time user, the new serve method is a simplified way to create a Prefect deployment and get your workflow into production. So I've got a script here that's going to fetch some weather data. And I import a flow from Prefect and add my flow decorator to my function. Now, at the bottom here, I've got a new.serve method that I'm using and I am giving the name of the deployment and I am passing in a schedule so I can run this flow automatically every day. So when I run this script and then head over to the UI, our deployment has been created and I have all these flows scheduled to run each day. Getting your workflows deployed has never been easier. Head over to the docs.prefect.io or check out the code below.
 
-#AvengersDoomsday #RobertDowneyJr #MarvelStudios
+Getting your Python code scheduled and into production should be easy, not complex.
 
-Watch our 'Teaser Trailer' Screen Culture concept for Avengers: Doomsday (2026) (More Info About This Video Down Below!)
+Follow along with Jeff Hale as he puts he schedules his weather reporting code with the .serve() method including in Prefect. You can find the sample code here: https://gist.github.com/discdiver/93999e38db5249d7dc718e90134b18ab
 
-𝗚𝗲𝘁 𝗡𝗼𝗿𝗱𝗩𝗣𝗡: https://bit.ly/3cSyrYO
-Use Coupon Code: SCRNCULT
-Use the code to get 68% off on a 2 Year Plan
-+ 4 Additional Months FREE!
+With Prefect, your can turn your fragile scheduled scripts into resilient, repeatable workflows with just a few lines of code. To get started with Prefect Cloud, get your free account at https://app.prefect.cloud.
 
-Let us know what you think about it in the comments down below!
+Connect with Us
+-----------------------
+  
+Website: https://www.prefect.io/
+Read the docs: https://docs.prefect.io/latest/
+GitHub: https://github.com/PrefectHQ/prefect
+Join Slack: https://www.prefect.io/slack
 
-We've got more cool stuff for you! Subscribe!
-► http://bit.ly/2NyxDcI
+Connect with us on LinkedIn: https://www.linkedin.com/company/prefect
+And Twitter: https://twitter.com/PrefectIO
 
-We also post cool stuff & updates on Instagram! Follow
-► http://bit.ly/2HHjbeT
-
-The inspiration behind this video: 
-
-Following their official return to the Marvel Cinematic Universe for Avengers: Doomsday and Avengers: Secret Wars, the Russo brothers go into depth about what was needed for them to make a comeback to Marvel Studios. 2024 marked a big year for Marvel Studios, as not only did Deadpool & Wolverine become a smashing success for the MCU timeline, but Phase 6 is looking stronger and better than ever. As Avengers: Doomsday and Avengers: Secret Wars are still happening, the MCU will be having their most successful directors handling the two sequels with the return of the Russo brothers.
-
-In a new interview with GamesRadar, co-director Joe Russo disclosed more on what was required in order for him and his brother Anthony Russo to agree to return to the MCU to helm both Avengers: Doomsday and Avengers: Secret Wars. Russo made it clear that having Robert Downey Jr. back was a must-have for their deal to go through.
-
-Thank You So Much For Watching!
-Stay Tuned! Stay Buzzed!
-
-──────────────────
-
-avengers 5,avengers 5 full movie,avengers 5 trailer,avengers 5 movie,avengers 5 movie trailer,avengers secret wars,avengers secret wars trailer,avengers 5 official trailer,avengers 5 secret wars,avengers 5 secret wars trailer,avengers secret wars official trailer,secret wars,secret wars trailer,secret wars avengers,secret wars official trailer,avengers 5 trailer official,avengers new trailer,new avengers,marvel avengers 5 trailer,avengers,marvel,secret,wars,avengers doomsday,avengers doomsday trailer,avengers doomsday announcement,avengers doomsday trailer in hindi,avengers doomsday teaser,avengers doomsday official trailer,avengers doomsday official teaser,avengers 5 doomsday trailer,avengers 5 doomsday,avengers 5 robert downey jr,robert downey jr,robert downey jr doctor doom,robert downey jr comic con,hd
+Subscribe: https://www.youtube.com/@PrefectIO
